@@ -1,0 +1,46 @@
+body{
+    font-family: "Poppins", sans-serif;
+}
+h1,h2,h3{
+    font-family: "Abril Fatface", serif;
+    text-align: center;
+    color:#7E22CE;
+}
+.navigation{
+    padding-inline-start:0px;
+    text-align: center;
+}
+.navigation a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+.navigation li{
+    display: inline;
+    padding: 10px;
+    margin:0 10px;
+    border:1.5px solid;
+    border-radius:5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.components-table{
+    margin: 0 auto;
+    border:2px solid black;
+    border-collapse: collapse;
+}
+.components-table td{
+    border:1.5px solid black;
+}
+.components-table tr:nth-child(even) {
+  background-color: #FAF5FF; 
+}
+.subtitle{
+    font-size:18px;
+    text-align: center;
+}
+.image-container{
+    text-align: center;
+}
+.general-comp-list ,.spec-comp-list{
+    list-style-type: none;
+}
