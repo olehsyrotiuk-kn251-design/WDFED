@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Лабораторна робота 4</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./assets/style.css"/>
+    <script src="./assets/script.js"></script>
+</head>
+<body>
+        <header>
+                <h1>Зварювання та споріднені технології</h1>
+                <nav>
+                        <ul class="navigation">
+                                <li><a href="./index.html">Головна</a></li>
+                                <li><a href="./group.html">Робоча група</a></li>
+                                <li><a href="./competencies.html">Компетентності</a></li>
+                                <li><a href="./components.html">Компоненти</a></li>
+                                <li><a href="./graph.html">Схема</a></li>
+                        </ul>
+                </nav>
+        </header>
+        <main class="container">
+                        <p class="subtitle">Рівень вищої освіти: другий (магістерський)</p>
+                        <p class="subtitle">Галузь знань: G Механічна інженерія</p>
+                        <p class="subtitle">Спеціальність: G Прикладна механіка</p>
+
+                <h2 id="goal">Мета освітньої програми</h2>
+                <p>Формування особистості фахівця, здатного вирішувати типові та складні непередбачувані завдання і проблеми комплексного характеру в галузі механічна інженерія, спеціальності G9 «Прикладна механіка». Забезпечити підготовку професіоналів здатних розв’язуватискладні задачі і проблеми в галузі прикладної механіки на основі розробки та провадження інноваційних технологій зварювання та конструкцій складально- варювального технологічного оснащення, в сферах машинобудівного виробництва, викладацької та науково-дослідницької діяльності.</p>
+                <form id="feedbackForm" method="POST">
+                        <div class="form-container">
+                                <div class="flex-row">
+                                        <div class="radio-box">
+                                                <b>Рівень володіння ПК</b>
+                                                <p><input type="radio" id="low" name="level"> Низький</p>
+                                                <p><input type="radio" id="medium" name="level"> Середній</p>
+                                                <p><input type="radio" id="higt" name="level"> Високий</p>
+                                                </div>
+            
+                                        <div class="slider-container">
+                                                <p><b>Годин на навчання:</b></p>
+                                                <p><input type="range" min="0" max="10" step="1" value="5" id="hours" oninput="updateSlider(this.value)"></p>
+                                                <p><b id="sliderValue">5</b></p>
+                                        </div>
+                                        <div class="checkbox-box">
+                                                <b>Очікування:</b>
+                                                <p><input type="checkbox" id="salary" name="expectations"> Висока ЗП</p>
+                                                <p><input type="checkbox" id="schedule" name="expectations"> Гнучкий графік</p>
+                                                <p><input type="checkbox" id="projects" name="expectations"> Цікаві задачі</p>
+                                        </div>
+            
+                                </div>
+
+                                <div class="submit">
+                                        <button type="submit">Submit</button>
+                                </div>
+        
+                        </div>
+                </form>
+        </main>
+        <footer>
+                <p>Oleg Syrotiuk © ІФНТУНГ, 2026 р.</p>
+        </footer>
+</body>
+</html>
